@@ -7,33 +7,52 @@ html {
     font-family: 'manifont';
 }
 
-body {
+/* body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
         url('blue-journal.jpeg');
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 table {
-    width: inherit;
+    text-align: center;
+    width: 400px;
     font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span:hover {
+    background-color: black !important;
+    color: white !important;
+    cursor: help;
+}
+
+#category {
+    font-size: 20px;
 }
 
 header {
     font-family: 'manifont';
     font-size: 60px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
-#content {
-    margin-left: auto;
-    margin-right: auto;
+#top {
+    padding: 15px;
+}
+
+#all,
+#mm,
+#suit {
+    text-align: center;
+    margin-top: 5px;
 }
 
 th,
 td {
     padding: 3px;
-    text-align: justify;
-    text-justify: inter-cluster;
+    text-align: left;
 }

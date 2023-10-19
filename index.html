@@ -12,6 +12,18 @@
 <body>
     <div id="top">
         <header>Daily Tarot Reading</header>
+        <div id="category">
+            <div id="all" onclick="resetEverything()"><span>Show All</span></div>
+            <div id="mm">
+                <span id="major" onclick="showMajor()">Major Arcana</span> | <span id="minor"
+                    onclick="showMinor()">Minor Arcana</span>
+            </div>
+            <div id="suit">
+                <span id="wand" onclick="showSuite('w')">Wand</span> | <span id="cup"
+                    onclick="showSuite('c')">Cup</span> | <span id="sword" onclick="showSuite('s')">Sword</span> | <span
+                    id="pentacle" onclick="showSuite('p')">Pentacle</span>
+            </div>
+        </div>
     </div>
 
     <div id="content">
